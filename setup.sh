@@ -8,8 +8,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get -y install docker-ce
 
-
-sudo deb https://download.webmin.com/download/repository sarge contrib
+echo "sudo deb https://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
 wget http://www.webmin.com/jcameron-key.asc
 sudo apt-key add jcameron-key.asc
 
