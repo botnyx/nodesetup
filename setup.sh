@@ -9,10 +9,10 @@ sudo apt-get update
 sudo apt-get install docker-ce
 
 
-deb https://download.webmin.com/download/repository sarge contrib
+sudo deb https://download.webmin.com/download/repository sarge contrib
 wget http://www.webmin.com/jcameron-key.asc
-apt-key add jcameron-key.asc
+sudo apt-key add jcameron-key.asc
 
-apt-get install apt-transport-https
-apt-get update
-apt-get install webmin
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install webmin
